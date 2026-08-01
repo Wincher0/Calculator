@@ -21,7 +21,3 @@ To compile this project, you need a C compiler configured for Windows developmen
 *   **MinGW / GCC** (GNU Compiler Collection)
 *   **MSVC** (Microsoft Visual C++ Compiler via Visual Studio)
 *   **Clang**
-
-
-
-
