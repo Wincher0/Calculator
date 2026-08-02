@@ -13,7 +13,6 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT Message, WPARAM wParam, LPARAM lParam) 
 		case WM_CREATE: {
 			textBox = CreateWindow("EDIT", "", WS_CHILD | WS_VISIBLE | WS_BORDER | ES_RIGHT | ES_AUTOHSCROLL | ES_READONLY, 10, 10, 390, 70, hwnd, (HMENU)201, NULL, NULL);	
 			
-			CreateWindow("BUTTON", "C", WS_CHILD | WS_VISIBLE, 310, 90, 90, 60, hwnd, (HMENU)2009, NULL, NULL);
 			CreateWindow("BUTTON", "+", WS_CHILD | WS_VISIBLE, 310, 160, 90, 130, hwnd, (HMENU)2001, NULL, NULL);
 			CreateWindow("BUTTON", "=", WS_CHILD | WS_VISIBLE, 310, 300, 90, 130, hwnd, (HMENU)2008, NULL, NULL);
 			
